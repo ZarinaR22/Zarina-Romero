@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Kaushan+Script&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Kaushan+Script&family=Pacifico&family=Protest+Riot&display=swap');
+
+body {
+    background-image: url('./imagenes/Fondo\ pasteleria.jpg');
+}
+
+.body-style {
+    background-color: transparent !important;
+    z-index: 2 !important;
+    position: absolute;
+}
+
+.container {
+    padding: 10px;
+}
+
+.btn-lila-header {
+    background-color: rgb(150, 82, 214) !important;
+    border-color: rgb(150, 82, 214) !important;
+}
+
+.icon-img-home {
+    width: 100px !important;
+}
+
+.container h1 {
+    color: rgb(150, 82, 214);
+    font-family: "Pacifico", cursive;
+}
+
+.cardimport {
+    width: 100%;
+    height: 700px;
+    padding: 20px;
+
+}
+
+footer {
+    color: rgb(240, 241, 241);
+    font-family: sans-serif;
+    background-color: rgb(150, 82, 214);
+}
+
+.map-responsive iframe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.map-responsive {
+    padding: 20px;
+    margin: 10px;
+}
+
+.caja img {
+    width: 50px;
+
+}
+
+.caja {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.caja h3 {
+    color: rgb(68, 65, 65);
+    font-size: large;
+}
+
+.carousel-inner {
+    display: flex;
+    align-items: flex-end;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.carousel-inner {
+    margin: 20px;
+}
